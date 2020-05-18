@@ -19,7 +19,7 @@ export function PizzaCard({ data, setOrdered }) {
           variant="success"
           block
         >
-          Order Pizza 🍕
+          Order Pizza <span role="img" aria-label="pizza">🍕</span> 
         </Button>
       </Card.Body>
     </Card>

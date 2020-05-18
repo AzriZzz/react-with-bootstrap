@@ -9,7 +9,6 @@ import pizzas from './data';
 
 function App() {
   const [ordered, setOrdered] = useState(false);
-
   function displayConfirmation() {
     setOrdered(true);
 
@@ -28,7 +27,6 @@ function App() {
             <Col xs={3} className='mb-5' key={`${data.id}`}>
               <PizzaCard data={data} setOrdered={displayConfirmation} />
             </Col>
-
           )
         )}
       </Row>
